@@ -1,14 +1,14 @@
 {
-  "name": "nodebb-theme-persona",
-  "version": "11.2.22",
+  "name": "nodebb-theme-binarycoffee",
+  "version": "1.0.0",
   "nbbpm": {
     "compatibility": "^1.18.0"
   },
-  "description": "Persona theme for NodeBB",
+  "description": "BinaryCoffee theme for NodeBB",
   "main": "library.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/psychobunny/nodebb-theme-persona"
+    "url": "https://github.com/binary-coffee-dev/nodebb-theme-binarycoffee"
   },
   "scripts": {
     "lint": "eslint ."
@@ -18,23 +18,14 @@
     "theme",
     "forum",
     "bootstrap",
-    "responsive"
+    "responsive",
+    "binary-coffee"
   ],
   "contributors": [
     {
-      "name": "Andrew Rodrigues",
-      "email": "andrew@designcreateplay.com",
-      "url": "https://github.com/psychobunny"
-    },
-    {
-      "name": "Julian Lam",
-      "email": "julian@designcreateplay.com",
-      "url": "https://github.com/julianlam"
-    },
-    {
-      "name": "Barış Soner Uşaklı",
-      "email": "baris@designcreateplay.com",
-      "url": "https://github.com/barisusakli"
+      "name": "Guillermo Gonzalez",
+      "email": "ggjnez92@gmail.com",
+      "url": "https://github.com/wil92"
     }
   ],
   "license": "BSD-2-Clause",
