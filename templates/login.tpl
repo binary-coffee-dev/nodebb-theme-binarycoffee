@@ -51,7 +51,7 @@
 					<div class="form-group">
 						<div class="col-lg-offset-2 col-lg-10">
 							<button class="btn btn-primary btn-lg btn-block" id="login" type="submit">[[global:login]]</button>
-							<button class="btn btn-primary btn-lg btn-block" id="login-binary" type="button">[[global:login]]</button>
+							<button class="btn btn-primary btn-lg btn-block" id="login-binary" type="button">[[persona:login-with-binary]]</button>
 							<!-- IF allowRegistration -->
 							<span>[[login:dont_have_account]] <a href="{config.relative_path}/register">[[register:register]]</a></span>
 							<!-- ENDIF allowRegistration -->
