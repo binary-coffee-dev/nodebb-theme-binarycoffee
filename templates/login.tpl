@@ -16,13 +16,13 @@
 				</div>
 
 				<form class="form-horizontal" role="form" method="post" id="login-form">
-					<div class="form-group">
+					<div style="display: none;" class="form-group">
 						<label for="username" class="col-lg-2 control-label">{allowLoginWith}</label>
 						<div class="col-lg-10">
 							<input class="form-control" type="text" placeholder="{allowLoginWith}" name="username" id="username" autocorrect="off" autocapitalize="off" value="{username}"/>
 						</div>
 					</div>
-					<div class="form-group">
+					<div style="display: none;" class="form-group">
 						<label for="password" class="col-lg-2 control-label">[[user:password]]</label>
 						<div class="col-lg-10">
 							<input class="form-control" type="password" placeholder="[[user:password]]" name="password" id="password" <!-- IF username -->autocomplete="off"<!-- ENDIF username -->/>
@@ -31,7 +31,7 @@
 							</p>
 						</div>
 					</div>
-					<div class="form-group">
+					<div style="display: none;" class="form-group">
 						<div class="col-lg-offset-2 col-lg-10">
 							<div class="checkbox">
 								<label>
@@ -50,13 +50,13 @@
 					<input type="hidden" name="noscript" id="noscript" value="true" />
 					<div class="form-group">
 						<div class="col-lg-offset-2 col-lg-10">
-							<button class="btn btn-primary btn-lg btn-block" id="login" type="submit">[[global:login]]</button>
+							<button style="display: none;" class="btn btn-primary btn-lg btn-block" id="login" type="submit">[[global:login]]</button>
 							<button class="btn btn-primary btn-lg btn-block" id="login-binary" type="button">[[persona:login-with-binary]]</button>
 							<!-- IF allowRegistration -->
 							<span>[[login:dont_have_account]] <a href="{config.relative_path}/register">[[register:register]]</a></span>
 							<!-- ENDIF allowRegistration -->
 							<!-- IF allowPasswordReset -->
-							&nbsp; <a id="reset-link" href="{config.relative_path}/reset">[[login:forgot_password]]</a>
+							&nbsp; <a style="display: none;" id="reset-link" href="{config.relative_path}/reset">[[login:forgot_password]]</a>
 							<!-- ENDIF allowPasswordReset -->
 						</div>
 					</div>
